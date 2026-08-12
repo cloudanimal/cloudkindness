@@ -49,6 +49,10 @@ body {
 .container { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
 
 h1, h2, h3 { line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 .5em; }
+
+/* Avoid orphans / widows */
+h1, h2, h3, .lede, .section-sub, .about-role { text-wrap: balance; }
+p, li, .eyebrow { text-wrap: pretty; }
 h1 { font-size: clamp(2.1rem, 5vw, 3.6rem); font-weight: 800; }
 h2 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); font-weight: 750; }
 h3 { font-size: 1.2rem; font-weight: 700; }
