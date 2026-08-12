@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found — CloudKindness</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <style>
+    .nf { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 40px 24px; }
+    .nf-inner { max-width: 560px; }
+    .nf-code { font-size: clamp(4rem, 14vw, 8rem); font-weight: 800; line-height: 1; letter-spacing: -0.03em;
+      background: linear-gradient(135deg, var(--brand), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; margin: 0; }
+    .nf-mark { display: inline-flex; margin-bottom: 22px; }
+    .nf h1 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 14px 0 10px; }
+    .nf p { color: var(--ink-soft); margin: 0 0 28px; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <div class="nf-inner">
+      <span class="nf-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="56" height="56" role="img" aria-hidden="true">
+          <path d="M28.5 16.5a7 7 0 0 0-13.2-2.4A6 6 0 1 0 13 26h15a5.5 5.5 0 0 0 .5-9.5z" fill="none" stroke="var(--logo-cloud)" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M20 30.5s-4.6-2.6-4.6-6a2.6 2.6 0 0 1 4.6-1.6 2.6 2.6 0 0 1 4.6 1.6c0 3.4-4.6 6-4.6 6z" fill="var(--logo-kind)"/>
+        </svg>
+      </span>
+      <p class="nf-code">404</p>
+      <h1>This page wandered off.</h1>
+      <p>The page you were looking for does not exist or has moved. Let us get you back on track.</p>
+      <a class="btn btn-primary btn-lg" href="/">Back to home</a>
+    </div>
+  </main>
+</body>
+</html>
