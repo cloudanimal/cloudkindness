@@ -6,8 +6,8 @@
   --ink: #131a2a;
   --ink-soft: #47506a;
   --line: #e0e5ef;
-  --brand: #14b8a6;      /* teal */
-  --brand-deep: #0d9488;
+  --brand: #0a84ff;      /* azure (logo) */
+  --brand-deep: #0a6fd4;
   --accent: #6366f1;     /* indigo */
   --accent-soft: #eef0fe;
   --warm: #f0abaf;
@@ -26,8 +26,8 @@
   --ink: #eef1f8;
   --ink-soft: #9aa4bf;
   --line: #26304a;
-  --brand: #2dd4bf;
-  --brand-deep: #14b8a6;
+  --brand: #3b9bff;
+  --brand-deep: #3b9bff;
   --accent: #818cf8;
   --accent-soft: #1a2138;
   --logo-cloud: #3b9bff;
@@ -62,7 +62,7 @@ a:hover { text-decoration: underline; }
 
 .eyebrow {
   text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 700;
-  color: var(--brand-deep); margin: 0 0 .6rem;
+  color: var(--logo-kind); margin: 0 0 .6rem;
 }
 
 .skip-link {
